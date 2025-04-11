@@ -1,0 +1,24 @@
+maxNum = (arr) => {
+  let max = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max;
+
+};
+
+console.log(maxNum([1, 2, 3, 4, 5])); // Output: 5
+
+// METHOD 2
+
+// maxMethod3 = (arr) => {
+//   return Math.max(...arr);
+// };
+
+function maxMethod3(arr) {
+  return Math.max(...arr)
+}
+
+console.log(maxMethod3([1, 2, 3, 4, 5])); // Output: 5
