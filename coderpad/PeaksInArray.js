@@ -15,5 +15,5 @@ function countPeaks(values) {
 }
 
 
-countPeaks[1,2,3,4,5,6]
+console.log(countPeaks[1,2,3,4,5,6])
 
