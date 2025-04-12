@@ -16,4 +16,4 @@ function solve(width, height, length, mass) {
 
 
 
-console.log(solve(10,40,50,20))
+console.log(solve(10,80,50,20))
