@@ -27,3 +27,6 @@ const fibonnaci = (n) => {
 
   return n === 0 ? a : b;
 };
+
+
+console.log(fibonnaci(3))
