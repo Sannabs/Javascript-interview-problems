@@ -19,3 +19,6 @@ function method2even(arr2) {
   
 }
 console.log(method2even([1, 2, 3, 4, 5, 6, 8])); // [2, 4, 6]
+
+
+
