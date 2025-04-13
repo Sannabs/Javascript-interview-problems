@@ -12,4 +12,4 @@ function fibonnaci(n) {
   return n === 0 ? a : b;
 }
 
-console.log(fibonnaci(1));
+console.log(fibonnaci(8));
