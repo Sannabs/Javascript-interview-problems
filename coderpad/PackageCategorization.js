@@ -11,3 +11,5 @@ function solve(width, height, length, mass) {
 }
 
 console.log(solve(10, 80, 50, 20));
+
+
