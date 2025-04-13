@@ -1,32 +1,21 @@
-// maxNum = (arr) => {
-//   let max = arr[0];
-//   for (let i = 1; i < arr.length; i++) {
-//     if (arr[i] > max) {
-//       max = arr[i];
-//     }
-//   }
-//   return max;
+maxNum = (arr) => {
+  let max = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max;
 
-// };
+};
 
-// console.log(maxNum([1, 2, 3, 4, 5])); // Output: 5
+console.log(maxNum([1, 2, 3, 4, 5])); // Output: 5
 
 // METHOD 2
 
-// maxMethod3 = (arr) => {
-//   return Math.max(...arr);
-// };
+maxMethod3 = (arr) => {
+  return Math.max(...arr);
+};
 
 
 
-function largest (arr) {
-  let max = arr[0]
-  for(let i = 0; i < arr.length; i ++) {
-    if(arr[i] > max) max = arr[i]
-  }
-
-  return max
-}
-
-
-console.log(largest([1,2,3,4]))
