@@ -12,4 +12,4 @@ function sumEvenNumbers(arr) {
     // sum only even numbers
     return result.reduce((sum, num) => sum + (num % 2 === 0 ? num : 0), 0);
   }
-  
+  console.log(sumEvenNumbers([1, [2, 3], [4, [5, 6, [7, 8]]]])); // 20
