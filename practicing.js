@@ -1,13 +1,14 @@
-function calculateTotalPrice(prices, discount) {
-  if (!prices || prices.length === 0) return 0;
+function largest (arr) {
+if(arr.length === 0) return null
 
-  const maxPrice = Math.max(...prices);
+let max = arr[0]
 
-  const discountedPrice = maxPrice * (1 - discount / 100);
-
-  Math.floor(
-    prices.reduce((sum, price) => sum + (maxPrice ? discountedPrice : price))
-  );
+for(let i =0; i < arr.length; i ++) {
+    if(arr[i] > max){
+        max = arr[i]
+    }
 }
+return max
 
-console.log(calculateTotalPrice([1, 2, 3, 4, 5], 10));
+
+}
