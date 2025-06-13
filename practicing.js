@@ -1,5 +1,8 @@
-function solve(values) {
-  if (values.length === 0) return null;
+const dups = (str) => {
 
-  return values.reduce((sum, val) => sum + val, 0);
-}
+    let reversed = ''
+    for(let i = str.length; i >= 0; i --) {
+            reversed+=str[i]
+    }
+    return reversed
+};
