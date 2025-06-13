@@ -1,3 +1,5 @@
+// What will be the categorization of a package with dimensions 10x80x50 and a mass of 20?
+
 function solve(width, height, length, mass) {
   const volume = width * height * length;
 
@@ -11,5 +13,4 @@ function solve(width, height, length, mass) {
 }
 
 console.log(solve(10, 80, 50, 20));
-
 

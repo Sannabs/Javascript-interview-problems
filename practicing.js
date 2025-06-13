@@ -1,14 +1,5 @@
-function largest (arr) {
-if(arr.length === 0) return null
+function solve(values) {
+  if (values.length === 0) return null;
 
-let max = arr[0]
-
-for(let i =0; i < arr.length; i ++) {
-    if(arr[i] > max){
-        max = arr[i]
-    }
-}
-return max
-
-
+  return values.reduce((sum, val) => sum + val, 0);
 }
